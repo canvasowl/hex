@@ -1,10 +1,19 @@
 <?php 
 namespace Canvasowl;
 
-
+/**
+ * This class is able to output numurous hex colors.
+ *
+ * Method list:
+ * make : 	returns a random color
+ * light: 	returns a light color 
+ * dark:  	returns a dark color
+ * cool:  	returns a cool color;
+ * warm:  	returna a warm color;
+ */
 class Hex
 {
-	// Returns a random hex color
+	// returns a random hex color
 	public function make(){
     	$rh = "";    	
     	for ($i=0; $i < 3 ; $i++) { 
@@ -12,6 +21,19 @@ class Hex
     	}
     	return '#' . $rh;
 	}
+
+	// returns a light color
+	public function light(){}
+
+	// returns a dark color
+	public function dark(){}
+
+	// returns a cool color
+	public function cool(){}
+
+	// returns a warm color
+	public function warm(){}
+	
 }
 
 
