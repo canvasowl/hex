@@ -35,7 +35,15 @@ class Hex
 	}
 
 	// returns a dark color
-	public function dark(){}
+	public function dark(){
+		$darkHex 	= 	"";
+
+		for ($i=0; $i <= 5 ; $i++) { 
+			$darkHex .= mt_rand(0,9);
+		}
+		
+		return '#' . $darkHex;		
+	}
 
 	// returns a cool color
 	public function cool(){}

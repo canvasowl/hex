@@ -7,4 +7,6 @@ $hex = new Canvasowl\Hex;
 // random hex color
 // echo $hex->make();
 // light hex color
-echo $hex->light();
+// echo $hex->light();
+// dark hex color
+echo $hex->dark();
