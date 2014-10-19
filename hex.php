@@ -23,7 +23,16 @@ class Hex
 	}
 
 	// returns a light color
-	public function light(){}
+	public function light(){
+		$light_arr 	= 	array('a','b','c','d','e','f');
+		$lightHex 	= 	"";
+
+		for ($i=0; $i <= 5 ; $i++) { 
+			$lightHex .= $light_arr[mt_rand(0,5)];
+		}
+
+		return '#' . $lightHex;
+	}
 
 	// returns a dark color
 	public function dark(){}

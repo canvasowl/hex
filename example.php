@@ -4,4 +4,7 @@ include 'hex.php';
 
 $hex = new Canvasowl\Hex;
 
-echo $hex->make();
+// random hex color
+// echo $hex->make();
+// light hex color
+echo $hex->light();
