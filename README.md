@@ -4,7 +4,7 @@
 Description: A PHP class to generated different types of hex colors.
 
 <h4>How Do I use this</h4>
-<p>Using Hex is easy, simply incude the class to yoru project and call any of the methods.</p>
+<p>Using Hex is easy, simply incude the class to your project and call any of the methods.</p>
 <p>Examples:</p>
 
 <p><pre>
