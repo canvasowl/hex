@@ -1,12 +1,25 @@
 <?php 
+/**********************************************
+ *
+ * This files shows how to call all the methods 
+ * using the Hex class.
+ * 
+ *********************************************/
+ 
 include 'hex.php';
+use Canvasowl\Hex as Hex;
 
+// Show a random color
+echo Hex::make();
 
-$hex = new Canvasowl\Hex;
+// Show a light color
+echo Hex::light();
 
-// random hex color
-// echo $hex->make();
-// light hex color
-// echo $hex->light();
-// dark hex color
-echo $hex->dark();
+// Show a dark color
+echo Hex::dark();
+
+// Show a cool color
+echo Hex::cool();
+
+// Show a warm color
+echo Hex::warm();
