@@ -24,8 +24,8 @@ class Hex
 
 	// returns a light color
 	public static function light(){
-		$light_arr 	= 	array('a','b','c','d','e','f');
-		$lightHex 	= 	"";
+		$light_arr = array('a','b','c','d','e','f');
+		$lightHex = "";
 
 		for ($i=0; $i <= 5 ; $i++) { 
 			$lightHex .= $light_arr[mt_rand(0,5)];
@@ -36,7 +36,7 @@ class Hex
 
 	// returns a dark color
 	public static function dark(){
-		$darkHex 	= 	"";
+		$darkHex = "";
 
 		for ($i=0; $i <= 5 ; $i++) { 
 			$darkHex .= mt_rand(0,9);
