@@ -1,10 +1,9 @@
-<h1>hex</h1>
-<h2>Version 1.0</h2>
-<hr>
+<h1>Hex</h1>
+<h3>Version 1.0</h3>
 
 Description: A PHP class to generated different types of hex colors.
 
-<h3>How Do I use this</h3>
+<h4>How Do I use this</h4>
 <p>Using Hex is easy, simply incude the class to yoru project and call any of the methods.</p>
 <p>Examples:</p>
 
