@@ -9,17 +9,21 @@
 include 'hex.php';
 use Canvasowl\Hex as Hex;
 
+$hex = new Hex();
+
 // Show a random color
-echo Hex::make();
+// echo $hex->make();
 
-// Show a light color
-echo Hex::light();
+// // Show a light color
+// echo $hex->light();
 
-// Show a dark color
-echo Hex::dark();
+// // Show a dark color
+// echo $hex->dark();
 
-// Show a cool color
-echo Hex::cool();
+// // Show a cool color
+// echo $hex->cool();
 
-// Show a warm color
-echo Hex::warm();
+// // Show a warm color
+// echo $hex->warm();
+
+echo $hex->pastel();
