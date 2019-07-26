@@ -11,18 +11,24 @@ Description: A PHP class to generated different types of hex colors.
 include 'hex.php';
 use Canvasowl\Hex as Hex;
 
+// Create Hex class instance
+$hex = new Hex();
+
 // Show a random color
-echo Hex::make();
+// echo $hex->make();
 
 // Show a light color
-echo Hex::light();
+// echo $hex->light();
 
 // Show a dark color
-echo Hex::dark();
+// echo $hex->dark();
 
 // Show a cool color
-echo Hex::cool();
+// echo $hex->cool();
 
 // Show a warm color
-echo Hex::warm();
+// echo $hex->warm();
+
+// Show pastel color
+echo $hex->pastel();
 </pre></p>

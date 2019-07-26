@@ -1,7 +1,7 @@
 {
     "name": "canvasowl/hex",
     "type": "class",
-    "description": "A PHP class to generated different types of hex colors.",
+    "description": "A PHP class to generate different types of hex colors.",
     "keywords": ["hex","color"],
     "homepage": "https://github.com/canvasowl/hex",
     "license": "MIT",
